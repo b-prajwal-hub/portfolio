@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYSITE</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav id="top">
+                <h1 onclick="window.open('index.html','_self')">Prajwal's Portfolio</h1>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects-container">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="info">
+                <div class="left-info">
+                    <img src="prajwal_img.jpeg" alt="Prajwal's Profile Picture">
+                </div>
+                <div class="right-info">
+                    <div class="my-info">
+                        <p title="Soon I'll make it">Aspiring Frontend Developer</p>
+                        <h1>Hi, My name is <br><span class="namecol">PRAJWAL</span>
+                            and I'm a <span id="element"></span>
+                        </h1>
+
+                        <!-- Load library from the CDN -->
+                        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js">
+                        </script>
+
+                        <!-- Setup and start animation! -->
+                        <script>
+                                var typed = new Typed('#element', {
+                                strings: ['Student.','Developer','Editor.','Learner.'],
+                                typeSpeed: 100,
+                                });
+                        </script>
+                        
+                        <span style="text-align: start; font-weight: 500;">
+                            "Looking for internship to work on real-world projects"
+                        </span>
+                    </div>
+                    <div class="scroll">
+                        <button onclick="window.open('#projects-container','_self')">
+                            <a href="#projects-container">Projects</a>
+                        </button>
+                        <button onclick="window.open('https://drive.google.com/file/d/1N5orzpdtnMaSJvFeCaa01_xCYtbDGVYL/view?usp=drive_link','_blank')">
+                            <a href="https://drive.google.com/file/d/1N5orzpdtnMaSJvFeCaa01_xCYtbDGVYL/view?usp=drive_link" target="_blank">Resume</a>
+                        </button>
+                        <button onclick="window.open('#contact','_self')">
+                            <a href="#contact">Contact</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="down-arrow" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>
+            </svg>
+        </header>
+        <main>
+            <div id="about">
+                <h1> About Me</h1>
+                <h4>An aspiring BCA final year student with strong fundamentals in various coding languages. Passionate
+                    to learn new technologies and work with the skills I have developed throughout my academic journey
+                    and be a part of collaborative team that builds real-world solutions.
+                </h4>
+                <h5>
+                   "Currently I'm looking for an internship to work on real-world projects with my skills like HTML, CSS, 
+                   JavaScript, Python, C, SQL, R programming."
+                </h5>
+                <div class="tech-stack">
+                    <h1>Tech Stack</h1>
+                    <div id="skills">
+                        <img src="skill-logos/html-logo.png" alt="HTML" title="HTML">
+                        <img src="skill-logos/css-logo.png" alt="CSS" title="CSS">
+                        <img src="skill-logos/js-logo.png" alt="JavaScript" title="JavaScript">
+                        <img src="skill-logos/sql-server-logo.png" alt="SQL" title="SQL">                        
+                        <img src="skill-logos/python-logo.png" alt="Python" title="Python">
+                        <img src="skill-logos/c-logo.png" alt="C" title="C programming">
+                        <img src="skill-logos/r-pgm-logo.png" alt="R Programming" title="R programming">
+                    </div>
+                </div>
+            </div>
+            <div id="projects-container">
+                <div class="projects-heading">
+                    <h1>PROJECTS</h1>
+                </div>
+                <div class="projects">
+                    <div class="project">
+                        <h3>YouTube-Clone</h3>
+                        <h6>
+                             <p>HTML, CSS</p>
+                              <ol>
+                                <li>Created front page similar to YouTube</li>
+                                <li>Got to know how to build a responsive grid layout</li>
+                              </ol>
+                        </h6>
+                        <button onclick="window.open('https://b-prajwal-hub.github.io/YouTube-Clone/')">Click to know</button>
+                    </div>
+                    <div class="project">
+                        <h3> Google-Home-Clone</h3>
+                        <h6>
+                             <p>HTML, CSS</p>
+                             <ol>
+                                <li>It helped me to understand flex layout and responsiveness</li>
+                                <li>Linked Gmail using < link> Tag</li>
+                             </ol>
+                        </h6>
+                        <button onclick="window.open('https://b-prajwal-hub.github.io/Google-Home-Clone/')">Click to know</button>
+                    </div>
+                    <div class="project">
+                        <h3>Simple Calculator</h3>
+                            <h6>
+                                <p>JavaScript, HTML, CSS</p> 
+                                <ol>
+                                    <li>Basics of JavaScript helped me to build and deploy this project</li>
+                                </ol>
+                            </h6>
+                        <button onclick="window.open('https://b-prajwal-hub.github.io/Calculator-JS/')">Click to know</button>
+                    </div>
+                    <div class="project">
+                        <h3>PROJECT 4</h3>
+                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, cupiditate officiis ipsa rem dolorum ut, omnis voluptatum maxime fuga laborum odit at quod minima reiciendis consequatur laudantium nostrum magnam dolorem?
+                        </h6>
+                        <button>Click to know</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div id="contact">
+                    <div class="contact-heading">
+                        <h1>CONTACT ME</h1>
+                    </div>
+                        <form action="">
+                            <input type="text" name="" id="" placeholder="Enter your name">
+                            <input type="email" name="" id="" placeholder="Enter Email">
+                            <input class="message" type="textarea" name="" id="" placeholder="Type your message">
+                            <button class="submit-btn">SEND</button>
+                    </form>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
