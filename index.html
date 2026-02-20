@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYSITE</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header id="page-top" class="head-section">
+        <!-- NAVIGATION -->
+            <nav>
+                <h1>Prajwal's Portfolio</h1>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#tech-container">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div id="toggle">
+                    <img onclick="changeThemeLight()" id="theme" class="dark-theme-mode" src="svgfile/dark-mode.svg" alt="toggle">
+                </div>
+            </nav>
+    <!-- SELF INTRODUCTION -->
+        <section class="hero-section">
+            <div class="profile-picture">
+                    <img src="prajwal_img.jpeg" alt="Prajwal's Profile Picture">
+            </div>
+            <div class="self-intro">
+                <h2 title="Soon I'll make it">Aspiring Frontend Developer</h2>
+                <h1>Hi, My name is <span class="name">PRAJWAL</span>
+                    and I'm a <span id="element"></span></h1>
+
+                <!-- Load library from the CDN -->
+                <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+                <!-- Setup and start animation! -->
+                <script> var typed = new Typed('#element', {strings: ['Student.','Developer.','Editor.','Learner.'],typeSpeed: 100,}); </script>
+                        
+                <p>"Currently looking for internships"</p>
+
+                <!-- Resume link -->
+                 <div class="resume">
+                    <a href="https://drive.google.com/file/d/1N5orzpdtnMaSJvFeCaa01_xCYtbDGVYL/view?usp=drive_link" target="_blank">Resume</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                 </div>
+            </div>
+                <!-- DOWN ARROW SVG -->
+                <svg class="down-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>
+                </svg>
+        </section>
+    </header>
+    <main>
+        <!-- ABOUT SECTION -->
+        <section id="about" >
+            <a href="#page-top"><img class="goto-top" src="svgfile/goto-top.svg" alt="goto-top-svg"></a>
+            <div class="about-container">
+                <h1> About Me</h1>
+                <p>An aspiring BCA final year student with strong fundamentals in various coding languages. Passionate
+                    to learn new technologies and work with the skills I have developed throughout my academic journey
+                    and be a part of collaborative team that builds real-world solutions.</p>
+                <p>"Currently I'm looking for an internship to work on real-world projects with my skills like HTML, CSS, JavaScript, Python, C, SQL, R programming."</p>
+            </div>
+            </section>
+        <!-- TECH SECTION -->
+        <section id="tech-container" class="tech-section">
+            <h1>Tech Stack</h1>
+            <aside class="tech-stack">
+                <div>
+                    <img src="skill-logos/html-logo.png" alt="HTML" title="HTML">
+                    <span>HTML</span>
+                </div>
+                <div>
+                    <img src="skill-logos/css-logo.png" alt="CSS" title="CSS">
+                    <span>CSS</span>
+                </div>
+                <div>
+                    <img src="skill-logos/js-logo.png" alt="JavaScript" title="JavaScript">
+                    <span>JavaScript</span>
+                </div>
+                <div>
+                    <img src="skill-logos/sql-server-logo.png" alt="SQL" title="SQL"> 
+                    <span>SQL</span>
+                </div>                       
+                <div>
+                    <img src="skill-logos/python-logo.png" alt="Python" title="Python">
+                    <span>Python</span>
+                </div>
+                <div>
+                    <img src="skill-logos/c-logo.png" alt="C" title="C programming">
+                    <span>C programming</span>
+                </div>
+                <div>
+                    <img src="skill-logos/r-pgm-logo.png" alt="R Programming" title="R programming">
+                    <span>R programming</span>
+                </div>
+                <div>
+                    <img src="skill-logos/linux-logo.png" alt="Linux Environment" title="Linux">
+                    <span>Linux</span>
+                </div>
+            </aside>
+        </section>
+        <!-- PROJECTS SECTION -->
+        <article id="projects" class="project-container">
+            <h1>Projects</h1>
+            <section class="project-section">
+                <div>
+                    <h2>PROJECT 4</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, cupiditate officiis ipsa rem dolorum ut, omnis voluptatum maxime fuga laborum odit at quod minima reiciendis consequatur laudantium nostrum magnam dolorem?</p>
+                    <a href="">Click to know</a>
+                </div>
+                <div>
+                    <h2>PROJECT 4</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, cupiditate officiis ipsa rem dolorum ut, omnis voluptatum maxime fuga laborum odit at quod minima reiciendis consequatur laudantium nostrum magnam dolorem?</p>
+                    <a href="">Click to know</a>
+                </div>
+                <div>
+                    <h2>PROJECT 4</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, cupiditate officiis ipsa rem dolorum ut, omnis voluptatum maxime fuga laborum odit at quod minima reiciendis consequatur laudantium nostrum magnam dolorem?</p>
+                    <a href="">Click to know</a>
+                </div>
+                <div>
+                    <h2>PROJECT 4</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, cupiditate officiis ipsa rem dolorum ut, omnis voluptatum maxime fuga laborum odit at quod minima reiciendis consequatur laudantium nostrum magnam dolorem?</p>
+                    <a href="">Click to know</a>
+                </div>
+            </section>
+        </article>
+    </main>
+        <footer id="contact" class="contact-container">
+            <!-- CONTACT SECTION -->
+                <h1>Contact Me</h1>
+                <form action="portfolio.php" method="post">
+                    <label for="clientName">Contact Name</label>
+                    <input  id="clientName" type="text" name="clientName" placeholder="Enter your name">
+
+                    <br>
+
+                    <label for="clientEmail">Email</label>
+                    <input id="clientEmail" type="email" name="clientEmail" placeholder="Enter Email">
+                    
+                    <br>
+
+                    <label for="clientMessage">Enter your Message</label>
+                    <textarea id="clientMessage" type="textarea" name="clientMessage" placeholder="Type your message"></textarea>
+
+                    <br>
+                    
+                    <button type="reset">Clear</button>
+                    <br>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
+</body>
+</html>
